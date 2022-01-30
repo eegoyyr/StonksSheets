@@ -1,0 +1,153 @@
+/*Preparation*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+    z-index: 1000;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.item_container {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #a4a4a4;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #000000;
+}*/
+
+/*Header*/
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-bottom: #000000 3px solid;
+}
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_item {
+    display: inline;
+    margin: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-bottom .2s linear, font-size .2s linear;
+}
+.nav_item:hover {
+    border-bottom: #000000 solid 4px;
+    font-size: 16px;
+}
+
+
+/*Dashboard*/
+#dashboard {
+    padding: 75px 50px ;
+}
+.item {
+    display: inline-block;
+    height: 250px;
+    width: 340px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    /*border: 5px solid #000;*/
+    align-content: center;
+    text-align: center;
+    transition: box-shadow .2s linear;
+}
+.item:hover {
+    box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item_title {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.playbtn {
+    cursor: pointer;
+    border: 4px solid #000000;
+    color: #000000;
+    display: inline-block;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: background-color .2s linear;
+    text-decoration: none;
+}
+.playbtn:hover {
+    background-color: #00ff00;
+}
+#vanta {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
